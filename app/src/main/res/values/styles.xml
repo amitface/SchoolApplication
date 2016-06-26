@@ -1,0 +1,32 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:textSize">@dimen/font_size</item>
+    </style>
+
+    <style name ="TranslucentTheme" parent="Theme.AppCompat.NoActionBar">
+
+        <item name="android:windowBackground">@android:drawable/screen_background_dark_transparent</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:windowTranslucentNavigation">true</item>
+
+
+        <item name="android:windowContentOverlay">@null</item>
+
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:backgroundDimEnabled">false</item>
+
+    </style>
+    <color name="custom_theme_color">#000000</color>
+
+
+
+</resources>
+    <!-- Theme for a wallpaper's setting activity, which is designed to be a transparent
+   background with a light shade, so the previous Activity is visible in the background. -->

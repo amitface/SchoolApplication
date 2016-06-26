@@ -1,0 +1,165 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+    android:layout_marginTop="16dp"
+    android:layout_marginBottom="16dp"
+    android:layout_marginLeft="16dp"
+    android:layout_marginRight="16dp"
+    android:id="@+id/rellayout"
+    android:background="#503939"
+    tools:context="com.school.amit.schoolapplication.SchoolDetail$PlaceholderFragment">
+
+    <TextView android:id="@+id/schoolName" android:layout_width="wrap_content"
+        android:text="School Name"
+        android:textSize="25dp"
+        android:layout_height="wrap_content" />
+
+
+
+    <View
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:layout_below="@+id/schoolName"
+        android:id="@+id/schoolSeparator"
+        android:background="#eeeeee"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:layout_marginBottom="15dp"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/schoolSeparator">
+        <LinearLayout
+            android:id="@+id/linLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/admission"
+        android:text="Admission"
+        android:textSize="20dp"
+
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/admissionInfo"
+
+        android:background="@color/material_deep_teal_500"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/admissionDetails"
+
+      />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:id="@+id/contact"
+        android:text="Contact"
+        android:textSize="20dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/phone"
+       />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/email"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/location"
+        android:text="Location"
+        android:textSize="20dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/locationDetails"
+
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/additionalInfo"
+
+        android:text="Addition Information"
+        android:textSize="20dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/additionalInfoDetails"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>
+
+
+<!--<TextView-->
+<!--android:layout_width="wrap_content"-->
+<!--android:layout_height="wrap_content"-->
+<!--android:id="@+id/admissionInfo"-->
+<!--android:layout_below="@+id/admission"-->
+<!--android:background="@color/material_deep_teal_500"-->
+    <!--/>-->
+<!--<TextView-->
+<!--android:layout_width="match_parent"-->
+<!--android:layout_height="wrap_content"-->
+<!--android:id="@+id/admissionDetails"-->
+
+<!--android:layout_below="@+id/admissionInfo"/>-->
+
+<!--<TextView-->
+<!--android:layout_width="match_parent"-->
+<!--android:layout_height="wrap_content"-->
+<!--android:layout_below="@+id/admissionDetails"-->
+<!--android:id="@+id/contact"-->
+<!--android:text="Contact"-->
+<!--android:textSize="20dp"/>-->
+<!--<TextView-->
+<!--android:layout_width="wrap_content"-->
+<!--android:layout_height="wrap_content"-->
+<!--android:id="@+id/phone"-->
+<!--android:layout_below="@+id/contact"/>-->
+<!--<TextView-->
+<!--android:layout_width="wrap_content"-->
+<!--android:layout_height="wrap_content"-->
+<!--android:id="@+id/email"-->
+<!--android:layout_below="@+id/phone"/>-->
+<!--<TextView-->
+<!--android:layout_width="match_parent"-->
+<!--android:layout_height="wrap_content"-->
+<!--android:id="@+id/location"-->
+<!--android:text="Location"-->
+<!--android:textSize="20dp"-->
+<!--android:layout_below="@+id/email"/>-->
+<!--<TextView-->
+<!--android:layout_width="wrap_content"-->
+<!--android:layout_height="wrap_content"-->
+<!--android:id="@+id/locationDetails"-->
+<!--android:layout_below="@+id/location"-->
+    <!--/>-->
+<!--<TextView-->
+<!--android:layout_width="match_parent"-->
+<!--android:layout_height="wrap_content"-->
+<!--android:id="@+id/additionalInfo"-->
+<!--android:layout_below="@+id/locationDetails"-->
+<!--android:text="Addition Information"-->
+<!--android:textSize="20dp"/>-->
+<!--<TextView-->
+<!--android:layout_width="wrap_content"-->
+<!--android:layout_height="wrap_content"-->
+<!--android:id="@+id/additionalInfoDetails"-->
+<!--android:layout_below="@+id/locationDetails"/>-->
